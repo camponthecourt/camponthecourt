@@ -21,7 +21,6 @@
     color: rgba(18, 46, 201, 0.7)
 }
 .logo{
-    clip-path: circle();
     height: 150px;
     width: 150px;
 }
@@ -161,6 +160,11 @@
 .contact-call form button:hover{
     border:1px solid #f44336;
 }
+.dai{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 @media (max-width:899px) {
     #head > main > section > div:nth-child(n) > div:nth-child(1) > span > h5, #head > main > section > div:nth-child(1) > div:nth-child(2) > span > h5, #head > main > section > div:nth-child(1) > div:nth-child(3) > span > h5{
         font-size: 16px;
